@@ -1,0 +1,60 @@
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+body {
+  background: linear-gradient(200deg, #f16af1, #a12da1, #8b32c7, #4b09a1,#8b32c7,#a12da1, #f16af1);
+  background-size: 800% 800%;
+  animation: gradientBG 15s ease infinite;
+}
+
+h1 {
+  color: #000000;
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+}
+
+.Paragraphs {
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #000000;
+    text-wrap:calc();
+}
+
+.img1 {
+    float:left;
+    margin-left: auto;
+}
+
+.img2 {
+    position: absolute;
+    top: 200px;
+    right: 70px;
+}
+
+.img3 {
+    position: absolute;
+    top: 600px;
+    right: 625px;
+}
+
+.psst {
+    position: absolute;
+    top: 800px;
+    right: 75px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #000000;
+    text-wrap:initial;
+    width: 300px;
+}
+
+.img4 {
+    position: absolute;
+    top: 900px;
+    right: 125px;
+}
